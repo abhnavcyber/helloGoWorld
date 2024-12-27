@@ -14,3 +14,5 @@ func helloHandler (w http.ResponseWriter, r *http.Request) {
 	fmt. Fprintln(w, response)
 	fmt. Println("Servicing an impatient beginner's request.")
 }
+
+
